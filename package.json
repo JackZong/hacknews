@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "hacknews by jackzong @jackzong",
+  "main": "index.js",
+  "dependencies": {
+    "_vue@2.4.2@vue": "^2.4.2",
+    "vue": "^2.4.2",
+    "webpack": "^3.5.5",
+    "webpack-merge": "^4.1.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config webpack.config/dev.js",
+    "start": "http-server -a 0.0.0.0 -p 8000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
