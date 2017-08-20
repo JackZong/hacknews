@@ -13,16 +13,16 @@ module.exports = {
 			views: path.join(root,'src/views'),
 			store: path.join(root,'src/store')
 		},
-		extensions: ['','.js','.vue'],
-		fallback: [path.join(root,'node_modules')]
+		extensions: ['.js','.vue'],
+	//	fallback: [path.join(root,'node_modules')]
 	},
-	resolveLoader: {
+/*	resolveLoader: {
 		fallback: [path.join(root,'node_modules')]
-	},
+	},*/
 	module: {
 		loaders: [
-			{test: /\.vue$/,loader: 'vue'},
-			{test: /\.js$/,loader: 'babel',exclude: /node_modules/}
+			{test: /\.vue$/,loader: 'vue-loader'},
+			{test: /\.js$/,loader: 'babel-loader',exclude: /node_modules/}
 		]
 	}
 }

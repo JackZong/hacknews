@@ -12,8 +12,8 @@ module.exports = merge(baseConfig,{
 	devServer: {
 		historyApiFallback: true,
 		inline: true,
-		progress: true,
-		colors: true,
+		//progress: true,
+		//colors: true,
 		port: 3000,
 	},
 	plugins: [
