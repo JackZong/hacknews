@@ -11,7 +11,8 @@ module.exports = {
 		alias: {
 			components: path.join(root,'src/components'),
 			views: path.join(root,'src/views'),
-			store: path.join(root,'src/store')
+			store: path.join(root,'src/store'),
+			'vue$': 'vue/dist/vue.common.js'
 		},
 		extensions: ['.js','.vue'],
 	//	fallback: [path.join(root,'node_modules')]

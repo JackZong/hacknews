@@ -7,7 +7,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = merge(baseConfig,{
 	entry:[
 		'webpack/hot/dev-server',
-		path.join(root,'src/index.js')
+		path.join(root,'src/app.js')
 	],
 	devServer: {
 		historyApiFallback: true,

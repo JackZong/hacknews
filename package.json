@@ -6,6 +6,7 @@
   "dependencies": {
     "_vue@2.4.2@vue": "^2.4.2",
     "vue": "^2.4.2",
+    "vue-router": "^0.7.13",
     "webpack": "^3.5.5",
     "webpack-merge": "^4.1.0"
   },

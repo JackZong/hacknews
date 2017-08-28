@@ -3,6 +3,6 @@
 </template>
 <script>
 	export default {
-		data: () => ({message: 'hello vue.js'})
+		data: () => ({message: 'hello lin jin zhang'})
 	}
 </script>
